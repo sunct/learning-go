@@ -117,5 +117,8 @@ brew switch go 1.13.6
 brew uninstall go
 ```
 
+### 下一节：
+[包管理go modules](https://github.com/sunct/learning-go//blob/master/learning-base/mod.md)
+
 
 

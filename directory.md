@@ -1,7 +1,11 @@
 ## 目录
 
 ### 第一部分 go语言基础篇
-- [安装go](https://github.com/sunct/learning-go//blob/master/learning-base/install.md)
+- [安装go](https://github.com/sunct/learning-go/blob/master/learning-base/install.md)
+
+- [包管理go modules](https://github.com/sunct/learning-go/blob/master/learning-base/mod.md)
+
+- [配置编辑工具](https://github.com/sunct/learning-go/blob/master/learning-base/tool.md)
 
 ### 第二部分 go语言编程篇
 
