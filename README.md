@@ -1,5 +1,7 @@
 # learning-go
 
+![image](https://github.com/sunct/learning-go/blob/master/images/page.jpg)
+
 #### 该仓库主要上传一些关于学习和应用go语言的文档。
 
 最近一直在忙于golang项目的开发工作，在开发过程中总会遇到各种问题，由于本人也是使用golang语言届的小白，遇到的问题更是多种多样。
