@@ -4,7 +4,7 @@
 
 安装包可从[go官网](https://golang.google.cn/dl/) 或者 [go 中文网](https://studygolang.com/dl) ，找到安装包路径。如图所示，根据自己需求下载。
 
-![image](https://github.com/sunct/learning-go/images/install-1.png)
+![image](https://github.com/sunct/learning-go/blob/master/images/install-1.png)
 
 在操作环境下，执行下面的命令进行下载。（截止时间：2020年01月14日14:14:59）
 

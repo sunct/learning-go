@@ -12,4 +12,4 @@
 
 
 
->爱学习的人不会找不到 [目录](https://github.com/sunct/learning-go/directory.md)
+>爱学习的人不会找不到 [目录](https://github.com/sunct/learning-go/blob/master/directory.md)
