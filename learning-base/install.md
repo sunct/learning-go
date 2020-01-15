@@ -97,6 +97,12 @@ go version
 ```$xslt
 vim ~/.bash_profile
 ```
+可参考我的配置：
+```$xslt
+export GOROOT="/usr/local/Cellar/go/1.13.6/libexec"
+export GOPATH=$HOME/code/go
+export GOBIN=$GOPATH/bin
+```
 保存，并执行
 ```$xslt
 source ~/.bash_profile
