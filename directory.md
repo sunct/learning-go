@@ -10,6 +10,8 @@
 ### 第二部分 Go语言编程篇
 #### 第1章：Go语言基本语法与使用
 - [字符串(string)长度](https://github.com/sunct/learning-go/blob/master/learning-program/string_len.md)
+
+- [类型(int,int64,string等)之间相互转换](https://github.com/sunct/learning-go/blob/master/learning-program/type_conversion.md)
 #### 第2章：流程控制
 
 #### 第3章：数组、切片和结构体
