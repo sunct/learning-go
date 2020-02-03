@@ -2,7 +2,7 @@
 
 ### 计算字符串长度
 
-> Go语言的内建函数len()，可以用来获取切片、字符串 、通道(channel)等的长度。注：返回的数据类型是 ```int``` 型。
+> Go语言的内建函数len()，可以用来获取切片、字符串 、通道(channel)等的长度。注：返回的数据类型是 `int` 型。
 
 
 下面的代码可以用len()来获取字符串的长度。 
@@ -25,7 +25,7 @@ len()函数的返回值的类型为int,表示字符串的ASCII字符个数或字
 
 这里的差异是由于Go语言的字符串都以UTF-8格式保存，每个中文占用3个字节，因此使用len()获得两个中文文字和两个中文字符（，与！）对应的12个字节。
 
-如果希望按习惯上的字符个数来计算，就需要使用Go语言中UTF-8包提供的```RuneCountInString()```函数来统计Uncode字符数量。
+如果希望按习惯上的字符个数来计算，就需要使用Go语言中UTF-8包提供的`RuneCountInString()`函数来统计Uncode字符数量。
 
 下面的代码展示如何计算UTF-8的字符个数。
 ```go
@@ -38,7 +38,7 @@ fmt.Println("计算含中文的字符串长度: ",utf8.RuneCountInString("你好
 ```
 
 总结 :
-- ASCII字符串长度使用len()函数。
-- Unicode字符串长度使用utf8.RuneCountInString()函数。
+- ASCII字符串长度使用`len()`函数。
+- Unicode字符串长度使用`utf8.RuneCountInString()`函数。
 
 

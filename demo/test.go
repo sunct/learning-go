@@ -76,10 +76,46 @@ func  TestTypeConversion(){
 
 }
 
+type Student struct {
+	Name string
+	Age int
+}
+
+
+var p1 = Student{Name:"WangXiaoMing",Age:18}
+
+func FmtDemo(){
+	fmt.Printf("\n %v", p1)
+	fmt.Printf("\n %+v", p1)
+	fmt.Printf("\n %#v", p1)
+	fmt.Printf("\n %T", p1)
+	fmt.Printf("\n %%")
+	fmt.Printf("\n %t",!true)
+
+	fmt.Printf("\n %b",100)
+	fmt.Printf("\n %c",0x4E2D)
+	fmt.Printf("\n %c",0x56FD)
+	fmt.Printf("\n %d",0100)
+	fmt.Printf("\n %o",64)
+	fmt.Printf("\n %q",65)
+	fmt.Printf("\n %q",0x56FD)
+	fmt.Printf("\n %x",123)
+	fmt.Printf("\n %X",123)
+	fmt.Printf("\n %U",0x56FD)
+
+	fmt.Printf("\n %s", []byte("中国加油！"))
+	fmt.Printf("\n %q", "中国加油！！")
+	fmt.Printf("\n %x", "golang")
+	fmt.Printf("\n %X", "golang")
+	fmt.Printf("\n %p", &p1)
+}
+
+
 func main(){
 
 	//TestStringLen()
-	TestTypeConversion()
+	//TestTypeConversion()
+	FmtDemo()
 
 }
 
