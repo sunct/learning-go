@@ -17,6 +17,8 @@
 
 #### 第2章：流程控制
 
+- [defer的使用](https://github.com/sunct/learning-go/blob/master/learning-program/defer.md)
+
 #### 第3章：数组、切片和结构体
 
 #### 第4章：函数

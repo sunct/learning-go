@@ -111,11 +111,68 @@ func FmtDemo(){
 }
 
 
+func DeferTestA() {
+	i := 0
+	defer fmt.Printf("defer 输出的 i 值：%d \n ",i)
+	i++
+	return
+}
+
+func DeferTestB() {
+	i := 0
+	defer fmt.Printf("defer 第一次输出的 i 值：%d \n ",i)
+	i++
+	defer fmt.Printf("defer 第二次输出的 i 值：%d \n ",i)
+	return
+}
+
+func DeferTestC() {
+	for i := 0; i < 4; i++ {
+		defer fmt.Printf("defer 第 %d 次输出的 i 值：%d \n ",i,i)
+	}
+}
+func DeferTestD() (res int) {
+	res = 1
+	defer fmt.Println("one")  //第一个进入
+	defer fmt.Println("two")  //第二进入
+	defer fmt.Println("three") //第三个进入
+	defer func() {
+		fmt.Println("start", res)
+		res++
+		fmt.Println("end", res)
+	}()
+	return 7
+}
+
+
+type SliceNum []int
+
+func NewSlice() SliceNum {
+	return make(SliceNum, 0)
+
+}
+
+func (s *SliceNum) Add(elem int) *SliceNum {
+	*s = append(*s, elem)
+	fmt.Println("add", elem)
+	fmt.Println("add SliceNum end", s)
+	return s
+}
+
 func main(){
 
 	//TestStringLen()
 	//TestTypeConversion()
-	FmtDemo()
-
+	//FmtDemo()
+	//fmt.Println(DeferTestD())
+	//fmt.Println(test())
+	s := NewSlice()
+	defer func() {
+		s.Add(1).Add(2).Add(3).Add(4)
+	}()
+	s.Add(10)
+	s.Add(11)
+	s.Add(12)
 }
+
 
