@@ -29,4 +29,6 @@
 
 -  [Go-【包的使用】汉语转拼音](https://github.com/sunct/learning-go/blob/master/learning-package/pinyin.md)
 
+-  [Go -【包的使用】proto，其message字段类型汇总](https://github.com/sunct/learning-go/blob/master/learning-package/proto_type.md)
+
 
