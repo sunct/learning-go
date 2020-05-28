@@ -166,13 +166,16 @@ func main(){
 	//FmtDemo()
 	//fmt.Println(DeferTestD())
 	//fmt.Println(test())
-	s := NewSlice()
-	defer func() {
-		s.Add(1).Add(2).Add(3).Add(4)
-	}()
-	s.Add(10)
-	s.Add(11)
-	s.Add(12)
+	//s := NewSlice()
+	//defer func() {
+	//	s.Add(1).Add(2).Add(3).Add(4)
+	//}()
+	//s.Add(10)
+	//s.Add(11)
+	//s.Add(12)
+
+	fmt.Printf("%g",fmt.Sprintf("%f",99999999.99))
+	//fmt.Sprintf("%g", fmt.Sprintf("%f", 99999999.99))
 }
 
 

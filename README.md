@@ -15,3 +15,12 @@
 
 
 >爱学习的人不会找不到 [目录](https://github.com/sunct/learning-go/blob/master/directory.md)
+
+
+> > 附 一些学习golang 的参考网站(不分先后)
+
+- [gorm使用手册](http://gorm.book.jasperxu.com/)
+- [go语言学习（内容很全面）](http://www.topgoer.com/)
+- [grpc中文文档](http://doc.oschina.net/grpc)
+
+
